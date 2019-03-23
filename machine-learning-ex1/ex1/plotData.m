@@ -17,6 +17,9 @@ figure; % open a new figure window
 %       markers larger by using plot(..., 'rx', 'MarkerSize', 10);
 
 
+plot(X, y, 'rx', MarkerSize', 10);
+xlabel('Population');
+ylabel('Revenue');
 
 
 
